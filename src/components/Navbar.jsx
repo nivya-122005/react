@@ -43,6 +43,12 @@ const Navbar = () => {
           <Button color="inherit">
             <Link to={"/s"} style={{color:"white"}}>Task</Link>
           </Button>
+          <Button color="inherit">
+            <Link to={"/j"} style={{color:"white"}}>Counter</Link>
+          </Button>
+           <Button color="inherit">
+            <Link to={"/w"} style={{color:"white"}}>InputData</Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

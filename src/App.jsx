@@ -10,6 +10,8 @@ import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import StateBasic from './components/StateBasic'
 import Task from './components/Task'
+import Counter from './components/Counter'
+import InputData from './components/InputData'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +32,9 @@ function App() {
       <Route path="/c" element={<DataCard/>}/> 
       <Route path="/i" element={<StateBasic/>}/>
       <Route path="/s" element={<Task/>}/>
+     <Route path="/w" element={<InputData/>}/>
+    
+    
    </Routes> 
     </>
   )
